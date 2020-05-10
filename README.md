@@ -361,3 +361,15 @@ Query to display particular fields
 # Exercise 1
 
 https://github.com/brianblaze14/mongo-db-project/blob/master/exercise/mongodb-exercis.md
+
+
+# HAPI Server Setup
+
+- install http-server by using command `npm install -g http-server` (add C:\Users\username\AppData\Roaming\npm and     C:\Users\username\AppData\Roaming\npm\node_modules\http-server to environment variable 'PATH')
+- intall httpie for `http` command to work-> reference URL(https://www.logicbig.com/how-to/tools/install-httpie.html)
+
+1) Test URI based on the key search -> http://localhost:8081/api/tours?tourPackage=Backpack%20Cal
+2) Test URI for path variable -> http://localhost:8081/api/tours/Big%20Sur%20Retreat
+3) Test URI for Posting -> http POST http://localhost:8081/api/tours tourName="Kerala Days" tourPackage="Fun in Sun" tourPrice=10000 tourLength=5
+  to check whether it is inserted http "http://localhost:8081/api/tours/Kerala Days"
+4) Test URI for put : http PUT "http://localhost:8081/api/tours/Kerala Days" tourBlurb="Get your tan on"
