@@ -342,11 +342,12 @@ Searching based on less than or equal to
 - `db.tours.find({tourPrice:{$lte:500}, tourLength:{$lte:3}}).explain("executionStats")` Run again Output shows {"totalDocsExamined" : 10,} only 4 where scanned
 
 
-Finding any values,
+Finding any string values equivalent to the like operation in SQL,
 1) `db.profiles.find({'profile.name': {'$regex': /b/i}})` //like '%a%'
 2) `db.profiles.find({'profile.name': {'$regex': /^b/i}})` //like 'pa%' 
 3) `db.profiles.find({'profile.name': {'$regex': /b$/i}})` //like '%ro'
 
+Query to display particular fields
 4) `db.collection_name.find( { "Search_Field": "value" }, { "Field_to_display": 1,_id:0 })`
    eg:`db.profiles.find({hobbies:{$regex:/^d/i}},{'profile.name':1, hobbies: 1,_id:0})`
    OUTPUT->
@@ -357,10 +358,6 @@ Finding any values,
    { "profile" : { "name" : "Brian Blaze" }, "hobbies" : [ "Reading", "Drawing" ] }
    { "profile" : { "name" : "Devika M" }, "hobbies" : [ "Reading", "Drawing" ] }
 
-5) `db.profiles.find({},{_id:0}).pretty()`
-6) `db.profiles.find({'profile.name': {'$regex': /^I/i}}).pretty()`
-7) `db.profiles.find({hobbies:{$regex:/^d/i}} , {'profile.name': 1, hobbies: 1, _id:0})`
-8) `db.profiles.update({'profile.name':"Brian Blaze"}, {$set:{"skill":"mongo"}})`
-9) `db.profiles.find({},{'profile.name':1, _id:0})`
-10) `db.profiles.find({'work.experience': {$gte:2}},{'profile.name':1, _id:0})`
-11) `db.profiles.find({$expr:{$gte:[{$size:"$languages"}, 2]}},{'profile.name':1,_id:0}).sort({'profile.name':1})`
+# Exercise 1
+
+https://github.com/brianblaze14/mongo-db-project/blob/master/exercise/mongodb-exercis.md
