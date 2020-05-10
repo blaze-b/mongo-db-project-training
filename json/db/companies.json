@@ -1,0 +1,14 @@
+[
+    {
+        "name": "UST-Global",
+        "numberOfEmployees": 1000,
+        "ceo": "Krishna",
+        "rating": 3.6
+    },
+    {
+        "name": "IBS",
+        "numberOfEmployees": 1000,
+        "ceo": "Motta",
+        "rating": 3.6
+    }
+]

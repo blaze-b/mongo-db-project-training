@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Json Example</title>
+</head>
+
+<body>
+    <script>
+        let companies = `[
+            {
+                "name": "UST-Global",
+                "numberOfEmployees": 1000,
+                "ceo": "Krishna",
+                "rating": 3.6
+            },
+            {
+                "name": "IBS",
+                "numberOfEmployees": 1000,
+                "ceo": "Motta",
+                "rating": 3.6
+            }
+        ]`;
+        console.log(JSON.parse(companies), JSON.parse(companies)[0].name,  JSON.parse(companies)[1].name);
+
+    </script>
+</body>
+
+</html>

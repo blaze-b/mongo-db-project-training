@@ -1,0 +1,38 @@
+{
+    "name": "Brian Blaze",
+    "favourite_number": 3,
+    "is_programmer": true,
+    "hobbies": [
+        "Swimming",
+        "Singing"
+    ],
+    "friends": [
+        {
+            "name": "Joey",
+            "favourite_number": 3,
+            "is_programmer": false,
+            "hobbies": [
+                "Swimming",
+                "Singing"
+            ]
+        },
+        {
+            "name": "Nithin",
+            "favourite_number": 3,
+            "is_programmer": false,
+            "hobbies": [
+                "Swimming",
+                "Singing"
+            ]
+        },
+        {
+            "name": "Job",
+            "favourite_number": 3,
+            "is_programmer": false,
+            "hobbies": [
+                "Swimming",
+                "Singing"
+            ]
+        }
+    ]
+}

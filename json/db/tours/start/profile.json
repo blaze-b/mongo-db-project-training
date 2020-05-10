@@ -1,0 +1,164 @@
+[
+    {
+        "profile": {
+            "name": "Brian Blaze",
+            "degree": "B-Tech"
+        },
+        "work": {
+            "company": "UST Global",
+            "position": "Senior Software Developer",
+            "experience": 3.6
+        },
+        "education": [
+            {
+                "college": "TKM College of Engineering, Kollam",
+                "course": "B-tech",
+                "branch": "Mechanical"
+            }
+        ],
+        "languages": [
+            "English",
+            "Malayalam",
+            "Hindi"
+        ],
+        "hobbies": [
+            "Reading",
+            "Drawing"
+        ]
+    },
+    {
+        "profile": {
+            "name": "Jaisha Raveendran",
+            "degree": "B-tech"
+        },
+        "work": {
+            "company": "UST Global",
+            "position": "Software Developer",
+            "experience": 2
+        },
+        "education": [
+            {
+                "college": "College of Engineering Trivandrum",
+                "course": "B-tech",
+                "branch": "Electronics and Communication Engineering"
+            }
+        ],
+        "languages": [
+            "English",
+            "Malayalam",
+            "Hindi"
+        ],
+        "hobbies": [
+            "Origami",
+            "Drawing"
+        ]
+    },
+    {
+        "profile": {
+            "name": "Dhanya S",
+            "degree": "B-Tech"
+        },
+        "work": {
+            "company": "UST Global",
+            "position": "Senior Software Developer",
+            "experience": 4.6
+        },
+        "education": [
+            {
+                "college": "CET,Trivandrum",
+                "course": "B-tech",
+                "branch": "Computer Science"
+            }
+        ],
+        "languages": [
+            "English",
+            "Malayalam",
+            "Hindi"
+        ],
+        "hobbies": [
+            "Reading",
+            "Drawing"
+        ]
+    },
+    {
+        "profile": {
+            "name": "Manu M",
+            "degree": "B-Tech"
+        },
+        "work": {
+            "company": "UST Global",
+            "position": "Technical Architect",
+            "experience": 10
+        },
+        "education": [
+            {
+                "college": "CET,Munnar",
+                "course": "B-tech",
+                "branch": "Electronics"
+            }
+        ],
+        "languages": [
+            "English",
+            "Malayalam",
+            "Hindi"
+        ],
+        "hobbies": [
+            "Reading",
+            "Drawing"
+        ]
+    },
+    {
+        "profile": {
+            "name": "Manhu Varghese",
+            "degree": "B-Tech"
+        },
+        "work": {
+            "company": "UST Global",
+            "position": "Senior Software Developer",
+            "experience": 6
+        },
+        "education": [
+            {
+                "college": "TKM College of Engineering, Kollam",
+                "course": "B-tech",
+                "branch": "Computer Engineering"
+            }
+        ],
+        "languages": [
+            "English",
+            "Malayalam",
+            "Hindi"
+        ],
+        "hobbies": [
+            "Reading",
+            "Drawing"
+        ]
+    },
+    {
+        "profile": {
+            "name": "Devika M",
+            "degree": "B-Tech"
+        },
+        "work": {
+            "company": "UST Global",
+            "position": "Senior Software Developer",
+            "experience": 3.6
+        },
+        "education": [
+            {
+                "college": "COE,Barton Hill",
+                "course": "B-tech",
+                "branch": "Computer Engineering"
+            }
+        ],
+        "languages": [
+            "English",
+            "Malayalam",
+            "Hindi"
+        ],
+        "hobbies": [
+            "Reading",
+            "Drawing"
+        ]
+    }
+]
