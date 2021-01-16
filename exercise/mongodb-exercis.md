@@ -1,7 +1,9 @@
-1) Import command : mongoimport /db:learning_mongo /collection:profiles /jsonArray /file:profile.json
-2) show collections
+## Run the below command before testing
 
-# Exercise part 1
+- Import command : `mongoimport /db:learning_mongo /collection:profiles /jsonArray /file:profile.json`
+- `show collections`
+
+## Exercise part 1
 
 - Write the Mongo DB query to find the total number of documents-> `db.profiles.count()`
 - Pretty print the result -> `db.profiles.find({},{_id:0}).pretty()`
