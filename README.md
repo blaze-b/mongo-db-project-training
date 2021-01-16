@@ -1,4 +1,4 @@
-## Mongo DB Basics
+# Mongo DB Training #
 
 - JSON Nested Json(Javascript Object Notation)
 - BSON is the format in mongoDB
@@ -7,112 +7,111 @@
 - Excellent drivers
 
 
-# Document Structure
+## Document Structure
+
 - Documents = JSON Objects
 - Store data as BSON (Binary JSON)
 - Easy to access
 - Flexible indexing capability
 - Easy to adapt common coding practices
 
-# Embedded Data
+## Embedded Data
+
 - Easier to work with
 - Minimizes coding operations
 - Easier to query and index
 
-# Include by reference
+## Include by reference
+
 - More operations for inserting and access
 - Aggregating data can be complex
 - Enables consitent data
 
-# DB Reference 
-https://github.com/synedra/learning_mongo.git
+## [DB Reference](https://github.com/synedra/learning_mongo.git)
 
 
-# Json Basics,
-Types:
-- String eg: "Brian"
-- Numbers eg: 1,0,1.5,-30
-- Boolean eg: true, false
-- null eg: null
-- Arrays eg: [1,2,3]
-- Objects eg: {"id":"1","name":"Brian"}
+## Json Basics
+
+- Types:
+  - String eg: "Brian"
+  - Numbers eg: 1,0,1.5,-30
+  - Boolean eg: true, false
+  - null eg: null
+  - Arrays eg: [1,2,3]
+  - Objects eg: {"id":"1","name":"Brian"}
 
 
-# Big Data: 
+## Big Data: 
 - Three V's : Volume, Variety, Velocity(Veracity abnormailty in data )
 
-#  Default Port : 27017
+## Default Port of mongodb: 27017
 
-# Features of MONGO DB:
+## Features of MONGO DB
+
 - No SQL 
 - Horizontal Scalability
 - Indexing
- 1. It provides performance improvement
- 2. ADHOC queries are expensive
- 3. Large datasets can lose performance
- 4. Indices are even useful for very simple data
- 5. 64 indices per collection
- 6. Single field
- 7. Compound Indexing
- 8. Unique- `UUID`-> Primary Key Equivalent and is unique for a document
+  1. It provides performance improvement
+  2. ADHOC queries are expensive
+  3. Large datasets can lose performance
+  4. Indices are even useful for very simple data
+  5. 64 indices per collection
+  6. Single field
+  7. Compound Indexing
+  8. Unique- `UUID`-> Primary Key Equivalent and is unique for a document
 - Sharding 
- 1. Shard key for identification similar to the partitioning
- 2. Partitions data onto different machines
- 3. Provides scalability via software
- 4. Autosharding
- 5. Challening in set up
+  1. Shard key for identification similar to the partitioning
+  2. Partitions data onto different machines
+  3. Provides scalability via software
+  4. Autosharding
+  5. Challening in set up
 - Replication 
- 1. Server in primary and secondary
- 2. Reliability
- 3. Maximizes uptime
- 4. Replica sets
- 5. Automatic failovers
+  1. Server in primary and secondary
+  2. Reliability
+  3. Maximizes uptime
+  4. Replica sets
+  5. Automatic failovers
 - Projection
 - Aggregation
 - Sorting
 - Limiting
 
-Cloud account creation
+## Note
 
-Test Cluster use the read write options can be done
-
-4.2.6 version download as a zip 
-
-`Mongo db atlas` -> cloud version
-
-`Mongo stitch` -> stitch.mongodb.com - apis is automatically created Backend as a service `BaaS`
-
-`Mongo Compass` -> official client similar to the robo mongo and better than the robo mongo
-
-`Mongo Charts` -> dynamic charts can be developed and is not a free version
+- Cloud account creation atlas
+- Test Cluster use the read write options can be done
+- 4.2.6 version download as a zip 
+- `Mongo db atlas` -> cloud version
+- `Mongo stitch` -> stitch.mongodb.com - apis is automatically created Backend as a service `BaaS`
+- `Mongo Compass` -> official client similar to the robo mongo and better than the robo mongo
+- `Mongo Charts` -> dynamic charts can be developed and is not a free version
 
 
-# Reference URL:
-Reference: https://www.youtube.com/watch?v=iiADhChRriM (Please refer further as much as possible to gain expertise)
-Reference: https://www.youtube.com/watch?v=uD3p_rZPBUQ (Please refer and as much as possible to gain expertise)
-LinkedIn Course:  Learning Mongo DB – Kirsten Hunter (Please skip the node js section and exercise)
-This will also include downloading Mongo db from software centre and setting it up in your machine and going through the exercises in it.
+## Reference URL:
+- Reference: https://www.youtube.com/watch?v=iiADhChRriM (Please refer further as much as possible to gain expertise)
+- Reference: https://www.youtube.com/watch?v=uD3p_rZPBUQ (Please refer and as much as possible to gain expertise)
+- LinkedIn Course:  Learning Mongo DB – Kirsten Hunter (Please skip the node js section and exercise)
+- This will also include downloading Mongo db from software centre and setting it up in your machine and going through the exercises in it.
 
 
-# No SQL
+## No SQL
 - Stands NOT ONLY SQl
 - A Non-Relational database(No tables)
 - A flexible database used for big data & real - time web apps
 - Multiple of No SQl databases
 - Document model and is more closely matches code objects, Designed for developers.
 
-# Big Data
+## Big Data
 - Data sets that are large consist for 3 V's
 - Increase in the data volume
 - Challenges in storage, capture, analysis, transfer, etc
 
-# Advantages of NoSQL over RDBMS
+## Advantages of NoSQL over RDBMS
 - Handled Big Data
 - Data Models - No predefined schema & Flexibility
 - Data Structure - NoSQL handles unstructured data
 - Cheaper to manage
-- Scaling- Scale out / Horizontal Scaling
-Scale-in & Scale-out
+- Scaling- Scale out / Horizontal Scaling Scale-in & Scale-out
 - Scale-in stands for the vertical scaling 
 - Scale-out it is cheaper nodes with the clustering and it is horizontal scaling
 - Table design is complex
@@ -123,54 +122,50 @@ Scale-in & Scale-out
 - Table organization for dicrete data
 
 
-# Disadvantages 
+## Disadvantages 
 - Better for relational data
 - Normalization
 - Well Known Language(SQL)
 - Data Integrity
 - ACID Compliance
 
-# Types of NO SQL Database
+## Types of NO SQL Database
 - Document Databases[MongoDb,CouchDB]
 - Column Databases [ApacheCassandra]
 - Key-Value Store [Redis,CouchbaseServer]
 - Cache Systems [Redis,Memcache]
 - Graph Databases[Neo4j]
 
+## [Download Help Center](https://www.mongodb.com/download-center/community)
 
-Download Help Center: https://www.mongodb.com/download-center/community
+- After the download copy the path 'C:\Program Files\MongoDB\Server\4.2\bin' to the environment variable,
+- Create a directory in the C: folder data\db
 
-After the download copy the path 'C:\Program Files\MongoDB\Server\4.2\bin' to the environment variable,
-
-Create a directory in the C: folder data\db
-
-# Simple Commands,
-
+## Simple Commands,
 - Start the server in cmd using `mongod` 
 - Run the command `mongo` in another server
-
-- `mongod`, `mongo`, `mongoimport` 
+- `mongod`, `mongo`, `mongoimport` Cmds for the local setup
 - `show dbs`
 - `use <<dbms_name>>`
 -  `show collections`
 - `db.<<dbms_name>>.find();`
 - `db.cars.insert({"make":"Suzuki"})`
 
-# Simple Exercise done in the mongo
+## Simple Exercise done in the mongo
 - `db.users.insert({"name":"Brian"})`
 - `show dbs`
 - `user test`
 - `show collections`
 - `db.users.find()`
 
-TO FIND
+## TO FIND
 - `db.users.find(name: "Brian")`
 - `db.users.find(name: {$exists : true})`
 
-TO REMOVE
+## TO REMOVE
 - `db.users.remove({name:"Brian"})`
 
-TO UPDATE
+## TO UPDATE
 - `db.users.update({name:"Brian"}, {"first_name":"Brian", "last_name": "Blaze", "location":"Kollam"})`
 - `db.users.update({first_name:"Brian"}, {$set:{"last_name":"Blaze"}})`
 - `db.users.update({first_name:"Brian"}, {"first_name":"Brian", "last_name": "Blaze", "location":"Kollam", "phone_number":[9562315894,8917360248]})`
@@ -179,23 +174,21 @@ TO UPDATE
 - `db.users.find({'phone_number.number': "9562315894"})`;
 
 
-EXPLORE COMMANDs
+## EXPLORE COMMANDs
 - `db`
 - `use learning_mongo` Output -> switched to db learning_mongo
 - `show dbs` -> The new db wont be shown unless a document is inserted
 - `show collections`
 - `print("Hello")` -> function to simply print details
 
-Create variables in MONGO
+## Create variables in MONGO
 - `var arr = [1,2,3]`
 - `arr`
-
 - `for(i=0;i<10;i++){
 ... db.numbers.insert(
 ... {numbers:i}
 ... )
 ... }`  -> flexible java operations is posible in the mongo db
-
 - `db.numbers.count()`-> Output 10
 - `db.numbers.find({numbers:1})` -> Output { "_id" : ObjectId("5eb36cc7e08bb1a7f086e095"), "numbers" : 1 }
 
@@ -231,7 +224,6 @@ Create variables in MONGO
         },
         "ok" : 1
 }
-
 - `db.numbers.find({numbers:1}).explain("executionStats")` Output
   {  "executionStats" : {
                 "executionSuccess" : true,
@@ -267,7 +259,6 @@ Create variables in MONGO
         },
         "ok" : 1
 }
-
 - `db.numbers.createIndex({number:1})` Output
 {
         "createdCollectionAutomatically" : false,
@@ -276,7 +267,8 @@ Create variables in MONGO
         "ok" : 1
 }
 
-# Importing a file
+## Importing a file
+
 - `mongoimport --help`
 namespace options:
   /d, /db:<database-name>                         database to use
@@ -301,7 +293,8 @@ input options:
 2020-05-07T08:22:43.053+0530    connected to: mongodb://localhost/
 2020-05-07T08:22:43.187+0530    29 document(s) imported successfully. 0 document(s) failed to import.
 
-# Commands after importing
+## Commands after importing
+
 - `show dbs`
 - `show collections`
 - `db.tours.find()`
@@ -317,38 +310,42 @@ input options:
 ... )`
 - `db.tours.count()`
 
-Add a new entry
+## Add a new entry
+
 - `db.tours.update({tourName: "The Wines of Santa Cruz"},{$set:{"tourRegion":"Central Coast"}})`
 
-Add a new entry in an array
+## Add a new entry in an array
+
 - `db.tours.update({tourName:"The Wines of Santa Cruz"}, {$addToSet: {"tourTags":"boardwalk"}})`
 
 - `db.tours.remove({"tourName" : "The Wines of Santa Cruz"})`
 
 - `db.tours.drop()` -> drops a collection
 
-Indexing
+## Indexing
 
 - Run the mongo import command on the tours.json file
 - `db.tours.find({tourPackage :"Taste of California"}).explain("executionStats")` Output {"totalDocsExamined" : 29,} -> All the documents where examined
 - `db.tours.createIndex({tourPackage:1})` -> Index the search id
 - `db.tours.find({tourPackage :"Taste of California"}).explain("executionStats")` Run again Output shows {"totalDocsExamined" : 4,} only 4 where scanned
 
-Mutiple Indexing
-Querying will make it efficient searching
-Searching based on less than or equal to 
-- `db.tours.find({tourPrice:{$lte:500}, tourLength:{$lte:3}})`
-- `db.tours.createIndex({tourPrice:1,tourLength:1})`
-- `db.tours.find({tourPrice:{$lte:500}, tourLength:{$lte:3}}).explain("executionStats")` Run again Output shows {"totalDocsExamined" : 10,} only 4 where scanned
+- Mutiple Indexing
+  - Querying will make it efficient searching
+  - Searching based on less than or equal to 
+  - `db.tours.find({tourPrice:{$lte:500}, tourLength:{$lte:3}})`
+  - `db.tours.createIndex({tourPrice:1,tourLength:1})`
+  - `db.tours.find({tourPrice:{$lte:500}, tourLength:{$lte:3}}).explain("executionStats")` Run again Output shows {"totalDocsExamined" : 10,} only 4 where scanned
 
 
-Finding any string values equivalent to the like operation in SQL,
-1) `db.profiles.find({'profile.name': {'$regex': /b/i}})` //like '%a%'
-2) `db.profiles.find({'profile.name': {'$regex': /^b/i}})` //like 'pa%' 
-3) `db.profiles.find({'profile.name': {'$regex': /b$/i}})` //like '%ro'
+## Finding any string values equivalent to the like operation in SQL
 
-Query to display particular fields
-4) `db.collection_name.find( { "Search_Field": "value" }, { "Field_to_display": 1,_id:0 })`
+- `db.profiles.find({'profile.name': {'$regex': /b/i}})` //like '%a%'
+- `db.profiles.find({'profile.name': {'$regex': /^b/i}})` //like 'pa%' 
+- `db.profiles.find({'profile.name': {'$regex': /b$/i}})` //like '%ro'
+
+## Query to display particular fields
+
+- `db.collection_name.find( { "Search_Field": "value" }, { "Field_to_display": 1,_id:0 })`
    eg:`db.profiles.find({hobbies:{$regex:/^d/i}},{'profile.name':1, hobbies: 1,_id:0})`
    OUTPUT->
    { "profile" : { "name" : "Manhu Varghese" }, "hobbies" : [ "Reading", "Drawing" ] }
@@ -358,18 +355,15 @@ Query to display particular fields
    { "profile" : { "name" : "Brian Blaze" }, "hobbies" : [ "Reading", "Drawing" ] }
    { "profile" : { "name" : "Devika M" }, "hobbies" : [ "Reading", "Drawing" ] }
 
-# Exercise 1
-
-https://github.com/brianblaze14/mongo-db-project/blob/master/exercise/mongodb-exercis.md
+## [Exercise 1](https://github.com/brianblaze14/mongo-db-project/blob/master/exercise/mongodb-exercis.md)
 
 
-# HAPI Server Setup
+## HAPI Server Setup connection to the Mongo DB
 
-- install http-server by using command `npm install -g http-server` (add C:\Users\username\AppData\Roaming\npm and     C:\Users\username\AppData\Roaming\npm\node_modules\http-server to environment variable 'PATH')
-- intall httpie for `http` command to work-> reference URL(https://www.logicbig.com/how-to/tools/install-httpie.html)
-
-1) Test URI based on the key search -> http://localhost:8081/api/tours?tourPackage=Backpack%20Cal
-2) Test URI for path variable -> http://localhost:8081/api/tours/Big%20Sur%20Retreat
-3) Test URI for Posting -> http POST http://localhost:8081/api/tours tourName="Kerala Days" tourPackage="Fun in Sun" tourPrice=10000 tourLength=5
-  to check whether it is inserted http "http://localhost:8081/api/tours/Kerala Days"
-4) Test URI for put : http PUT "http://localhost:8081/api/tours/Kerala Days" tourBlurb="Get your tan on"
+- Install http-server by using command `npm install -g http-server` (add C:\Users\username\AppData\Roaming\npm and C:\Users\username\AppData\Roaming\npm\node_modules\http-server to environment variable 'PATH')
+- Install httpie for `http` command to work -> [reference URL](https://www.logicbig.com/how-to/tools/install-httpie.html)
+- API Testing:
+  - Test URI based on the key search -> http://localhost:8081/api/tours?tourPackage=Backpack%20Cal
+  - Test URI for path variable -> http://localhost:8081/api/tours/Big%20Sur%20Retreat
+  - Test URI for Posting -> http POST http://localhost:8081/api/tours tourName="Kerala Days" tourPackage="Fun in Sun" tourPrice=10000 tourLength=5 to check whether it is inserted http "http://localhost:8081/api/tours/Kerala Days"
+  - Test URI for put : http PUT "http://localhost:8081/api/tours/Kerala Days" tourBlurb="Get your tan on"
